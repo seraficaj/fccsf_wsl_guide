@@ -15,16 +15,16 @@ Based on discussion within our chapter's membership, we agreed that there needed
 - Windows Subsystem Linux 2
 - Ubuntu Terminal
 - Zsh (with Oh-My-Zsh configuration)
-- Slack (Desktop App recommended for chapter news!)
 - VSCode (+ some optional helpful extensions)
+- Git
+- Node.js
+- NPM 
 - Python3
 - Django
-- Node.js
 - Heroku CLI
-- NPM
-- Git
 - MongoDB
 - PostgreSQL
+- Slack (Desktop App recommended for chapter news!)
 
 ^These tools will allow you to follow the freeCodeCamp curriculum and fully participate in most of our chapter's activities including hackathons, open-source projects, and to even launch your own! There are other programming languages and frameworks you may be interested in such as Ruby, Rails, and PHP. We may add those in the future! 
 
