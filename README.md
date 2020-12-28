@@ -3,10 +3,27 @@
 ## Table of Contents
 - How to use this guide/FAQ 
 - Installing WSL2 on your Windows 10 Computer
+- What will be installed on my computer?
 - Setting up your WSL2 environment for freeCodeCamp's Curriculum
 
 ## How to use this guide
 Based on discussion within our chapter's membership, we agreed that there needed to be a resource for setting up one's own computer for web development outside of the in-browser workspaces that freeCodeCamp provides early in the curriculum. Setting up a working dev environment is important for success later in the full-stack certifications. While many members in our chapter use Macbooks at meet-ups and other chapter events, I wanted to create a resource that proves the viability of using other, more affordable computer systems.
+
+## What will be installed on my computer?
+- Windows Subsystem Linux 2
+- Ubuntu Terminal
+- Zsh (with Oh-My-Zsh configuration)
+- Slack (Desktop App recommended for chapter news!)
+- VSCode (+ some optional helpful extensions)
+- Python3
+- Django
+- Node.js
+- NPM
+- Git
+- MongoDB
+- PostgreSQL
+
+^These tools will allow you to follow the freeCodeCamp curriculum and fully participate in most of our chapter's activities including hackathons, open-source projects, and to even launch your own! There are other programming languages and frameworks you may be interested in such as Ruby, Rails, and PHP. We may add those in the future! 
 
 Please read the FAQ section before continuing to look over the installation instructions.
 
