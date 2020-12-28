@@ -20,6 +20,7 @@ Based on discussion within our chapter's membership, we agreed that there needed
 - Python3
 - Django
 - Node.js
+- Heroku CLI
 - NPM
 - Git
 - MongoDB
