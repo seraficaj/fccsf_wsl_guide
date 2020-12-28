@@ -1,4 +1,4 @@
-# freeCodeCamp San Francisco WSL2 Guide
+# freeCodeCamp San Francisco WSL2/Linux Guide
 
 ## Table of Contents
 - How to use this guide/FAQ 
@@ -8,6 +8,8 @@
 
 ## How to use this guide
 Based on discussion within our chapter's membership, we agreed that there needed to be a resource for setting up one's own computer for web development outside of the in-browser workspaces that freeCodeCamp provides early in the curriculum. Setting up a working dev environment is important for success later in the full-stack certifications. While many members in our chapter use Macbooks at meet-ups and other chapter events, I wanted to create a resource that proves the viability of using other, more affordable computer systems.
+
+**While this guide is designed for WSL2 on Windows 10 computers, most, if not all, of these instructions can be followed for setting up an Ubuntu Linux dev environment.**
 
 ## What will be installed on my computer?
 - Windows Subsystem Linux 2
