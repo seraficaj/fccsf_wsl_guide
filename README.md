@@ -55,4 +55,6 @@ Please read the FAQ section before continuing to look over the installation inst
    - We recommend getting a Linux, Mac OS, WSL computer as soon as possible to establish a working dev environment for yourself. You will need a fully-featured operating system to practice controlling your computer with the command line and using professional development tools and systems like Git or a code editor. There are guides to setting up a dev environment on chromebooks, but we haven't many of them to be friendly to beginners. For this reason, we recommend following this installation guide.
 
 ## Ready to get started?
-- Click this link for the first set of installation instructions!
+- Click through the links below installation instructions!
+- Slack, Zoom, GitHub
+- Installing WSL2 on Windows and Setting Up Your Terminal
