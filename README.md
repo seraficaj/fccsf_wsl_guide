@@ -47,6 +47,9 @@ Please read the FAQ section before continuing to look over the installation inst
 - *There are Windows 10 versions of (Git, PostgreSQL, etc.). Why do I need to use the Linux versions of tools?*
    - The version of Linux we install to our computers is treated as a separate operating system, so some tools might not be able to detect what's going on inside our WSL installation. Plus, we will mostly be using our Linux terminal to manage these tools.
 
+- *Why are we installing Django instead of Flask (or other web development frameworks like Ruby on Rails, Meteor.js, etc.)>*
+   - We include installation instructions for Django because it is a popular web development framework using Python. It is also an opinionated framework, so it is a good counterpoint to unopinionated frameworks used in our resources like Express.js. You are welcome to install other tech stacks you are interested in learning.
+
 - *Can I use a chromebook at freeCodeCamp SF?*
    - You can definitely get through the very early parts of the front-end and full-stack certifications on freeCodeCamp.org using a chromebook. In fact, some of the early front-end projects will be coded entirely on online workspaces like codepen.io. However, the curriculum will quickly become difficult if you are not able to move away from freeCodeCamp's in-browser workspaces and start working with the back-end or using front-end libraries like React or Vue.
    - We recommend getting a Linux, Mac OS, WSL computer as soon as possible to establish a working dev environment for yourself. You will need a fully-featured operating system to practice controlling your computer with the command line and using professional development tools and systems like Git or a code editor. There are guides to setting up a dev environment on chromebooks, but we haven't many of them to be friendly to beginners. For this reason, we recommend following this installation guide.
