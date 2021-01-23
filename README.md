@@ -38,7 +38,7 @@ Please read the FAQ section before continuing to look over the installation inst
 
 - *What recommended specs/kind of Windows computer do you recommend for learning web development at freeCodeCamp SF?*
    - Here are some recommended specs for any computer:
-      - Processor: Intel i5, Intel i7 or equivalent and above
+      - Processor: Intel i5, Intel i7 or equivalent and above (like AMD Ryzen 5 or 7)
       - RAM: at least 8GB (16GB or more recommended for remote work)
       - Storage: 128GB or more available storage
       - compatible with Windows 10 version 1903 or later. (see installation instructions to check compatibility)
@@ -56,5 +56,7 @@ Please read the FAQ section before continuing to look over the installation inst
 
 ## Ready to get started?
 - Click through the links below installation instructions!
-- Slack, Zoom, GitHub
-- Installing WSL2 on Windows and Setting Up Your Terminal
+* [ ] [Command Line](command-line-setup.md)
+* [ ] [Installing Git](git-installation.md)
+* [ ] [Tech Stacks](web-technologies.md)
+* [ ] [Desktop Applications](desktop-applications.md)
