@@ -78,6 +78,13 @@ Confirm installation with `django-admin --version`
 
 https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
 
+## Heroku CLI for deployment
+
+Adapted from https://dev.to/wrightdotclick/heroku-cli-on-wsl-26fp.
+`curl https://cli-assets.heroku.com/install.sh | sh`
+
+confirm installation by running `heroku apps` or `heroku open`
+
 * [x] [Command Line](command-line-setup.md)
 * [x] [Installing Git](git-installation.md)
 * [x] [Tech Stacks](web-technologies.md)

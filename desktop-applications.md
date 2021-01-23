@@ -1,3 +1,7 @@
+## Slack
+
+Download the [Slack Desktop Client](https://slack.com/downloads/windows). We recommend using the Desktop client over the website version of Slack because it is easier to get notifications, upload files, and do other actions. Our Slack workspace is the most active forum of our chapter. 
+
 ## Text Editor
 Earlier, we installed VSCode. Open up Windows Terminal and type `code .` to create a shortcut in your terminal to open up VSCode. It's much faster than looking for a folder and then opening it in VSCode.
 
@@ -37,6 +41,8 @@ Every single application above has its own list of shortcuts too!
 ## Postman - API Testing
 
 Download the Postman Desktop App from https://www.postman.com/downloads/. We will not be using the chrome extension.
+
+## Slack
 
 * [x] [Command Line](command-line-setup.md)
 * [x] [Installing Git](git-installation.md)
