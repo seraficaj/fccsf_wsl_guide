@@ -1,6 +1,6 @@
 # Installfest for Windows, Step 1: Unix Terminal on Windows
 
-1. Follow [Microsoft's instructions](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide) to get Windows Subsystem Linux 2 installed on your system.
+1. Follow [Microsoft's instructions (Manual Installation)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) to get Windows Subsystem Linux 2 installed on your system.
 
 2. Download [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) (no version after it) from the Microsoft Store desktop app to install an Ubuntu environment. This linux distribution will have some features and software (like Python3) pre-installed.
 
