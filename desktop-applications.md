@@ -46,5 +46,5 @@ Download the Postman Desktop App from https://www.postman.com/downloads/. We wil
 
 * [x] [Command Line](command-line-setup.md)
 * [x] [Installing Git](git-installation.md)
-* [x] [Tech Stacks](web-technologies.md)
+* [x] [Databases and Frameworks](dbs-frameworks.md)
 * [x] [Desktop Applications](desktop-applications.md)

@@ -58,5 +58,5 @@ Please read the FAQ section before continuing to look over the installation inst
 - Click through the links below installation instructions!
 * [ ] [Command Line](command-line-setup.md)
 * [ ] [Installing Git](git-installation.md)
-* [ ] [Tech Stacks](web-technologies.md)
+* [ ] [Databases and Frameworks](db-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)

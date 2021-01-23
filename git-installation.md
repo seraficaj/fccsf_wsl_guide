@@ -158,5 +158,5 @@ code ~/.zshrc
 Next up: Setting Up Languages and Frameworks!
 * [X] [Command Line](command-line-setup.md)
 * [X] [Installing Git](git-installation.md)
-* [ ] [Tech Stacks](web-technologies.md)
+* [ ] [Databases and Frameworks](dbs-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)

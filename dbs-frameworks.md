@@ -87,5 +87,5 @@ confirm installation by running `heroku apps` or `heroku open`
 
 * [x] [Command Line](command-line-setup.md)
 * [x] [Installing Git](git-installation.md)
-* [x] [Tech Stacks](web-technologies.md)
+* [x] [Databases and Frameworks](dbs-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)

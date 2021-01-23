@@ -63,5 +63,5 @@ For example, when someone with a Mac says "command" or "apple" key, press contro
 
 * [x] Command Line
 * [ ] [Installing Git](git-installation.md)
-* [ ] [Tech Stacks](web-technologies.md)
+* [ ] [Databases and Frameworks](db-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)
