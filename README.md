@@ -54,7 +54,7 @@ Please read the FAQ section before continuing to look over the installation inst
 
 - *Can I use a chromebook at freeCodeCamp SF?*
    - You can definitely get through the very early parts of the front-end and full-stack certifications on freeCodeCamp.org using a chromebook. In fact, some of the early front-end projects will be coded entirely on online workspaces like codepen.io. However, the curriculum will quickly become difficult if you are not able to move away from freeCodeCamp's in-browser workspaces and start working with the back-end or using front-end libraries like React or Vue.
-   - We recommend getting a Linux, Mac OS, WSL computer as soon as possible to establish a working dev environment for yourself. You will need a fully-featured operating system to practice controlling your computer with the command line and using professional development tools and systems like Git or a code editor. There are guides to setting up a dev environment on chromebooks, but we haven't many of them to be friendly to beginners. For this reason, we recommend following this installation guide.
+   - We recommend getting a Linux, Mac OS, WSL computer as soon as possible to establish a working dev environment for yourself. You will need a fully-featured operating system to practice controlling your computer with the command line and using professional development tools and systems like Git or a code editor. There are guides to setting up a dev environment on chromebooks, but we haven't found many of them to be friendly to beginners. For this reason, we recommend following this installation guide.
 
 ## Ready to get started?
 - Click through the links below installation instructions!

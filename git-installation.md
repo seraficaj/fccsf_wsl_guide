@@ -1,8 +1,8 @@
-## Installing Git
+# Installing & Configuring Git
 
 run `sudo apt-get install git`
 
-#### Configuring a Global git ignore
+## Configuring a Global git ignore
 
 > Note: This is **IMPORTANT**
 
@@ -127,7 +127,7 @@ Finally, lets put some good stuff in there by editing the newly created `.gitign
 
 3. Save the file.
 
-#### Avoiding Having to Create A Git Message Every Time a Git Merge Takes Place
+## Avoiding Having to Create A Git Message Every Time a Git Merge Takes Place
 
 By default, git asks for a commit message any time a merge takes place, for example, you'll be running this command quite a bit:  `git pull upstream master`.
 

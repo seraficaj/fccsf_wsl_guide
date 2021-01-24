@@ -1,3 +1,5 @@
+# Desktop Applications 
+
 ## Slack
 
 Download the [Slack Desktop Client](https://slack.com/downloads/windows). We recommend using the Desktop client over the website version of Slack because it is easier to get notifications, upload files, and do other actions. Our Slack workspace is the most active forum of our chapter. 
