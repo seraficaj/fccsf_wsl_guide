@@ -9,6 +9,8 @@
 ## How to use this guide
 Based on discussion within our chapter's membership, we agreed that there needed to be a resource for setting up one's own computer for web development outside of the in-browser workspaces that freeCodeCamp provides early in the curriculum. Setting up a working dev environment is important for success later in the full-stack certifications. While many members in our chapter use Macbooks at meet-ups and other chapter events, I wanted to create a resource that proves the viability of using other, more affordable computer systems.
 
+Windows Subsystem Linux 2, or WSL2 for short, creates an instance of a Linux operating system running on a Windows 10 computer. The advantages of performing tasks inside this embedded system are explained in detail later in this guide. Setting up a Dev Environment with WSL2 allows Windows computer users to seamless work with other campers using Mac or Linux. 
+
 **While this guide is designed for WSL2 on Windows 10 computers, most, if not all, of these instructions can be followed for setting up an Ubuntu Linux dev environment.**
 
 ## What will be installed on my computer?
@@ -34,7 +36,7 @@ Please read the FAQ section before continuing to look over the installation inst
 
 ## FAQ
 - *Why should I install WSL2 on my computer?*
-- We recommend installing WSL2 to provide a (mostly) seamless experience working with the freeCodeCamp curriculum and other learning resources that were designed with UNIX-based operating systems like Linux or Mac OS. These operating systems have a different structure than Windows, and many tools used in the FCC curriculum are best managed with a UNIX OS.
+   - We recommend installing WSL2 to provide a (mostly) seamless experience working with the freeCodeCamp curriculum and other learning resources that were designed with UNIX-based operating systems like Linux or Mac OS. These operating systems have a different structure than Windows, and many tools used in the FCC curriculum are best managed with a UNIX OS.
 
 - *What recommended specs/kind of Windows computer do you recommend for learning web development at freeCodeCamp SF?*
    - Here are some recommended specs for any computer:
@@ -47,7 +49,7 @@ Please read the FAQ section before continuing to look over the installation inst
 - *There are Windows 10 versions of (Git, PostgreSQL, etc.). Why do I need to use the Linux versions of tools?*
    - The version of Linux we install to our computers is treated as a separate operating system, so some tools might not be able to detect what's going on inside our WSL installation. Plus, we will mostly be using our Linux terminal to manage these tools.
 
-- *Why are we installing Django instead of Flask (or other web development frameworks like Ruby on Rails, Meteor.js, etc.)>*
+- *Why are we installing Django instead of Flask (or other web development frameworks like Ruby on Rails, Meteor.js, etc.)?*
    - We include installation instructions for Django because it is a popular web development framework using Python. It is also an opinionated framework, so it is a good counterpoint to unopinionated frameworks used in our resources like Express.js. You are welcome to install other tech stacks you are interested in learning.
 
 - *Can I use a chromebook at freeCodeCamp SF?*
