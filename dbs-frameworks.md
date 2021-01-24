@@ -10,7 +10,7 @@ Confirm installation with `node --version` and `npm --version`
 
 ## Databases (MongoDB and PostgreSQL)
 
-The following instructions are adapted from [Microsoft's WSL Database Guide](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database). Bookmark that page to have a quick reference for establishing a quick connection to popular database systems.
+The following instructions are adapted from [Microsoft's WSL Database Guide](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database). Bookmark that page to have a quick reference for establishing connections to popular database systems.
 
 ## MongoDB
 
