@@ -17,19 +17,25 @@ Open up Windows Terminal and click on the the downward facing arrow next to the 
 ![Windows Terminal](img/terminal01.png)
 
 
-look for a field called `defaultProfile: ...` in the settings.json file.
+look for a field called `defaultProfile: ...` in the settings.json file. make note of where it is located. it will be overwritten soon.
 
 ![The Default Profile](img/terminal02.png)
 
-scroll down until you find a field called `"profiles": ...` and look for `"list":...` nested inside
+next, scroll down until you find a field called `"profiles": ...` and look for `"list":...` nested inside
 
-copy the `guid: "{...}"` of `name: ubuntu` and paste it into `defaultProfile:...`. It will look similar to the screenshot below. Notice the startingDirectory field. If you have a fresh install, that will not be there. 
+![list of profiles](img/settingsjson_list.png)
+
+find this property: `guid: "{...}"` of `name: ubuntu` inside the list of profiles. 
+
+now, copy the value for `guid:` (the stuff after guid in quote and curly braces like this: `"{THE LONG CODE FOR THE UBUNTU PROFILE}"` ) into `defaultProfile:...`. It will look similar to the screenshot below. Notice the startingDirectory field. If you have a fresh install, that will not be there. 
 
 ![The Ubuntu Profile](img/terminal03.png)
 
 Inside the `guid: {UBUNTU GUID}`, add a new property beneath `name: ubuntu`. This will be the default folder that opens when you launch your terminal.
 
 `"startingDirectory": "//wsl$/Ubuntu/home/ YOUR USERNAME HERE `
+
+Lastly, take the UBUNTU GUID and paste it into `defaultProfile` field.
 
 Save the settings.json file and return to Windows terminal.
 
