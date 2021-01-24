@@ -153,7 +153,7 @@ Use VS Code to edit the `~/.zshrc` file:
 code ~/.zshrc
 ```
 
-**Regardless of which file you edited, be sure to save it.  You will also need to quit (`command + Q`) terminal and relaunch it for this setting to take effect.**
+**Regardless of which file you edited, be sure to save it.  You will also need to quit the terminal and relaunch it for this setting to take effect.**
 
 Next up: Setting Up Languages and Frameworks!
 * [X] [Command Line](command-line-setup.md)
