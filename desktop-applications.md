@@ -107,8 +107,3 @@ You will be at a serious disadvantage if you do not know how to touch type. To p
 * [x] [Configuring Git](git-configuration.md)
 * [x] [Databases and Frameworks](db-frameworks.md)
 * [x] [Desktop Applications](desktop-applications.md)
-
-* [x] [Command Line](command-line-setup.md)
-* [x] [Installing Git](git-installation.md)
-* [x] [Databases and Frameworks](dbs-frameworks.md)
-* [x] [Desktop Applications](desktop-applications.md)
