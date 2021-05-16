@@ -59,7 +59,7 @@ sudo apt-get -f install
 ```
 to ensure all default packages are installed.
 
-Excellent-you now have Linux installed on your computer, which will let you use the nearly same commands as everyone else for the remainder of the course.
+Excellent- you now have Linux installed on your computer, which will let you use the nearly same commands as everyone else using a Unix system!
 
 For example, when someone with a Mac says "command" or "apple" key, press control instead. Other keyboard commands may be different, and we've highlighted a few for you to memorize.
 
@@ -69,5 +69,5 @@ For example, when someone with a Mac says "command" or "apple" key, press contro
 
 * [x] Command Line
 * [ ] [Installing Git](git-installation.md)
-* [ ] [Databases and Frameworks](db-frameworks.md)
+* [ ] [Databases and Frameworks](dbs-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)
