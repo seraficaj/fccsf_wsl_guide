@@ -127,12 +127,6 @@ Run: `curl https://cli-assets.heroku.com/install.sh | sh`
 
 Then, confirm installation by running `heroku apps` or `heroku open`
 
-
-## Heroku CLI for deployment
-
-Adapted from https://dev.to/wrightdotclick/heroku-cli-on-wsl-26fp.
-`curl https://cli-assets.heroku.com/install.sh | sh`
-
 confirm installation by running `heroku apps` or `heroku open`
 
 * [x] [Command Line](command-line-setup.md)
