@@ -49,7 +49,7 @@ Make Zsh your default terminal by running:
 
 `chsh -s /bin/zsh`
 
-Install a Zsh theme like [oh-my-zsh](https://ohmyz.sh/) to have a beautiful, easy to use Zsh terminal!
+Install [oh-my-zsh](https://ohmyz.sh/) to have a beautiful, easy to use Zsh terminal!
 
 5. Run `apt-get update` to ensure your Linux installation is up to date.
 
@@ -63,7 +63,17 @@ Excellent- you now have Linux installed on your computer, which will let you use
 
 For example, when someone with a Mac says "command" or "apple" key, press control instead. Other keyboard commands may be different, and we've highlighted a few for you to memorize.
 
-7. Git
+7. Signing your code with Git
+
+Git has been pre-installed on your computer. Don't believe me?
+
+Run: git --version
+
+Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
+
+Run: git config --global user.email "YOUR EMAIL ADDRESS HERE Then: git config --global user.name "YOUR NAME HERE"
+
+More detailed configuration will be in the next section: Next, we will continue configuring git!
 
 [Your next step will be installing git!](git-installation.md)
 
