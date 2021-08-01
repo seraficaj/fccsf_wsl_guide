@@ -51,7 +51,7 @@ Make Zsh your default terminal by running:
 
 Install [oh-my-zsh](https://ohmyz.sh/) to have a beautiful, easy to use Zsh terminal!
 
-5. Run `apt-get update` to ensure your Linux installation is up to date.
+5. Run `sudo apt-get update` to ensure your Linux installation is up to date.
 
 6. Run
 ```
