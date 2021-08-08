@@ -106,7 +106,7 @@ If you're planning to use Django with virtual environments, please read the Pyth
 ## Python Virtual Environments 
 You can start a Python3 virtual environment with: `python3 -m venv name_of_venv`
 
-- You may be walked through an installation by your computer the first time you run this command. It will guide you through installing any other dependences needed to run a venv (virtual env.). (You may also have to prepend the installation command with prepend for it work successfully.)
+- You may be walked through an installation by your computer the first time you run this command. It will guide you through installing any other dependences needed to run a venv (virtual env.). (You may also have to prepend the installation command with `sudo` for it work successfully.)
 
 Python venvs are usually named `myenv` or `venv` instead of `name_of_venv`. If successful, your command line will also have the name of the venv, and the venv code will be stored in a folder called `lib`.
 
