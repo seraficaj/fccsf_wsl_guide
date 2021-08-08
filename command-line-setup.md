@@ -67,15 +67,17 @@ For example, when someone with a Mac says "command" or "apple" key, press contro
 
 Git has been pre-installed on your computer. Don't believe me?
 
-Run: git --version
+Run: `git --version`
 
 Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
 
-Run: git config --global user.email "YOUR EMAIL ADDRESS HERE Then: git config --global user.name "YOUR NAME HERE"
+Run: `git config --global user.email "YOUR EMAIL ADDRESS HERE` 
+
+Then: `git config --global user.name "YOUR NAME HERE"`
 
 More detailed configuration will be in the next section: Next, we will continue configuring git!
 
-[Your next step will be installing git!](git-installation.md)
+[Your next step will be configuring git!](git-installation.md)
 
 * [x] Command Line
 * [ ] [Installing Git](git-installation.md)
