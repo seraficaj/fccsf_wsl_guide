@@ -1,12 +1,12 @@
 # Installfest for Windows, Step 1: Unix Terminal on Windows
 
-1. Follow [Microsoft's instructions (Manual Installation)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) to get Windows Subsystem Linux 2 installed on your system.
+1. Follow [Microsoft's instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) to get Windows Subsystem Linux 2 installed on your system. You may have to restart your computer several times or change your computer's BIOS options. Again, this documentation is provided as-is, and you are responsible for any changes following this guide may have on your machine.
 
 2. Download [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) (no version after it) from the Microsoft Store desktop app to install an Ubuntu environment. This linux distribution will have some features and software (like Python3) pre-installed.
 
 4. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) from the Microsoft App Store.
 
-5. Install [VSCode](https://code.visualstudio.com/). This will be your main text editor.
+5. Install [VSCode](https://code.visualstudio.com/). This will be your main text editor. Make sure to select the options to associate file types with VSCode and to set up PATH when you insall it.
 
 ## Setting Windows Terminal to Use Ubuntu by default
 
