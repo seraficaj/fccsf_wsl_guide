@@ -4,7 +4,7 @@
 
 You may have to enable virtualization from your computer's BIOS menu. Refer to your computer's manuals/manufacturer's instructions for additional details.
 
-If you have never done anything like this, we recommend following this guide on Medium.com. It has more screenshots and step-by-step guidance for this process than Microsoft's website. [How To Install WSL2](https://medium.com/swlh/how-to-install-the-windows-subsystem-for-linux-2-wsl2-779b9fd2cadc)
+If you have never done anything like this, we recommend following this guide on Medium.com. It has more screenshots and step-by-step guidance for this process than Microsoft's website. You will only have to do the first page and no more before following the rest of this guide. [How To Install WSL2](https://medium.com/swlh/how-to-install-the-windows-subsystem-for-linux-2-wsl2-779b9fd2cadc)
 
 2. Download [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) (no version after it) from the Microsoft Store desktop app to install an Ubuntu environment. This linux distribution will have some features and software (like Python3) pre-installed.
 
