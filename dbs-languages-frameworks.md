@@ -119,6 +119,10 @@ To download Python3 pip3 dependencies, you can use the same command as Mac OS X 
 `python3 -m pip install -r requirements.txt`
 Notice how it's pip and not pip3 in this command.
 
+If you are trying to deploy your app to Heroku and run into some errors, you may need to install additional default packages for Heroku to detect your project is written in Python and assign the appropriate buildpack.
+
+`sudo apt install libpq-dev python3-dev gcc` Select `y` to run through the installation automatically.
+
 ## Heroku CLI for deployment
 
 Adapted from https://dev.to/wrightdotclick/heroku-cli-on-wsl-26fp.
@@ -128,6 +132,7 @@ Run: `curl https://cli-assets.heroku.com/install.sh | sh`
 Then, confirm installation by running `heroku apps` or `heroku open`
 
 confirm installation by running `heroku apps` or `heroku open`
+ 
 
 * [x] [Command Line](command-line-setup.md)
 * [x] [Configuring Git](git-configuration.md)
