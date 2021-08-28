@@ -80,6 +80,6 @@ More detailed configuration will be in the next section: Next, we will continue 
 [Your next step will be configuring git!](git-installation.md)
 
 * [x] Command Line
-* [ ] [Installing Git](git-installation.md)
-* [ ] [Databases and Frameworks](dbs-frameworks.md)
+* [ ] [Configuring Git](git-configuration.md)
+* [ ] [Databases and Frameworks](dbs-languages-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)
