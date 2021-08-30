@@ -2,9 +2,9 @@
 
 1. Follow [Microsoft's instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) to get Windows Subsystem Linux 2 installed on your system. You may have to restart your computer several times or change your computer's BIOS options. Again, this documentation is provided as-is, and you are responsible for any changes following this guide may have on your machine. 
 
-You may have to enable virtualization from your computer's BIOS menu. Refer to your computer's manuals/manufacturer's instructions for additional details.
+    You may have to enable virtualization from your computer's BIOS menu. Refer to your computer's manuals/manufacturer's instructions for additional details.
 
-If you have never done anything like this, we recommend following this guide on Medium.com. It has more screenshots and step-by-step guidance for this process than Microsoft's website. You will only have to do the first page and no more before following the rest of this guide. [How To Install WSL2](https://medium.com/swlh/how-to-install-the-windows-subsystem-for-linux-2-wsl2-779b9fd2cadc)
+    If you have never done anything like this, we recommend following this guide on Medium.com. It has more screenshots and step-by-step guidance for this process than Microsoft's website. You will only have to do the first page and no more before following the rest of this guide. [How To Install WSL2](https://medium.com/swlh/how-to-install-the-windows-subsystem-for-linux-2-wsl2-779b9fd2cadc)
 
 2. Download [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) (no version after it) from the Microsoft Store desktop app to install an Ubuntu environment. This linux distribution will have some features and software (like Python3) pre-installed.
 
@@ -43,9 +43,11 @@ Lastly, take the UBUNTU GUID and paste it into `defaultProfile` field.
 
 Save the settings.json file and return to Windows terminal.
 
-4. Type `pwd` at the command line. If it gives a path similar to `/home/yourname`, then you're in great shape! If it says that is not a recognized command, try running `bash` or `zsh` first and then `pwd`. 
+## Configuring Default Packages And Software for Ubuntu
 
-If you do not have Zsh installed, I recommend installing Zsh with the following command:
+1. Type `pwd` at the command line. If it gives a path similar to `/home/yourname`, then you're in great shape! If it says that is not a recognized command, try running `bash` or `zsh` first and then `pwd`. 
+
+2. If you do not have Zsh installed, I recommend installing Zsh with the following command:
 
 `sudo apt-get update && sudo apt-get -y install zsh`
 
@@ -53,11 +55,11 @@ Make Zsh your default terminal by running:
 
 `chsh -s /bin/zsh`
 
-Install [oh-my-zsh](https://ohmyz.sh/) to have a beautiful, easy to use Zsh terminal!
+3. Install [oh-my-zsh](https://ohmyz.sh/) to have a beautiful, easy to use Zsh terminal!
 
-5. Run `sudo apt-get update` to ensure your Linux installation is up to date.
+4. Run `sudo apt-get update` to ensure your Linux installation is up to date.
 
-6. Run
+5. Run
 ```
 sudo apt-get -f install
 ```
@@ -67,21 +69,21 @@ Excellent- you now have Linux installed on your computer, which will let you use
 
 For example, when someone with a Mac says "command" or "apple" key, press control instead. Other keyboard commands may be different, and we've highlighted a few for you to memorize.
 
-7. Signing your code with Git
+6. Signing your code with Git
 
-Git has been pre-installed on your computer. Don't believe me?
+    Git has been pre-installed on your computer. Don't believe me?
 
-Run: `git --version`
+    Run: `git --version`
 
-Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
+    Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
 
-Run: `git config --global user.email "YOUR EMAIL ADDRESS HERE` 
+    Run: `git config --global user.email "YOUR EMAIL ADDRESS HERE` 
 
-Then: `git config --global user.name "YOUR NAME HERE"`
+    Then: `git config --global user.name "YOUR NAME HERE"`
 
 More detailed configuration will be in the next section: Next, we will continue configuring git!
 
-[Your next step will be configuring git!](git-installation.md)
+[Your next step will be configuring git!](git-configuration.md)
 
 * [x] Command Line
 * [ ] [Configuring Git](git-configuration.md)
