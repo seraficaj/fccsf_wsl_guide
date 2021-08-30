@@ -10,6 +10,8 @@
 - Python Virtual Environments
 - Heroku CLI  
 
+## BOOKMARK THIS PAGE! YOU WILL USE IT A LOT FOR FULL-STACK DEVELOPMENT!
+
 ## JavaScript (Node.js and NPM)
 Run these commmands from your terminal.
 
