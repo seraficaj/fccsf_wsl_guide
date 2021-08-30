@@ -166,5 +166,5 @@ code ~/.zshrc
 Next up: Setting Up Languages and Frameworks!
 * [X] [Command Line](command-line-setup.md)
 * [X] [Configuring Git](git-configuration.md)
-* [ ] [Databases and Frameworks](dbs-languages-frameworks.md)
+* [ ] [Databases, Languages, and Frameworks](dbs-languages-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)
