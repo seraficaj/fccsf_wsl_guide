@@ -15,6 +15,9 @@ Run these commmands from your terminal.
 
 - `sudo apt update`
 - `sudo apt install nodejs npm`
+- `sudo npm cache clean -f`
+- `sudo npm install -g n`
+- `sudo n stable`
 
 Confirm installation with `node --version` and `npm --version`
 
