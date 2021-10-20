@@ -1,4 +1,4 @@
-# Setting Up Languages and Frameworks
+# Setting Up Databases, Languages, and Frameworks
 
 ## Table of Contents
 - JavaScript
@@ -9,6 +9,8 @@
 - Django
 - Python Virtual Environments
 - Heroku CLI  
+
+** BOOKMARK THIS PAGE! YOU WILL USE IT A LOT FOR FULL-STACK DEVELOPMENT! **
 
 ## JavaScript (Node.js and NPM)
 Run these commmands from your terminal.
@@ -139,5 +141,5 @@ confirm installation by running `heroku apps` or `heroku open`
 
 * [x] [Command Line](command-line-setup.md)
 * [x] [Configuring Git](git-configuration.md)
-* [x] [Databases and Frameworks](dbs-languages-frameworks.md)
+* [x] [Databases, Languages, and Frameworks](dbs-languages-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)

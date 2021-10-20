@@ -87,5 +87,5 @@ More detailed configuration will be in the next section: Next, we will continue 
 
 * [x] Command Line
 * [ ] [Configuring Git](git-configuration.md)
-* [ ] [Databases and Frameworks](dbs-languages-frameworks.md)
+* [ ] [Databases, Languages, and Frameworks](dbs-languages-frameworks.md)
 * [ ] [Desktop Applications](desktop-applications.md)
