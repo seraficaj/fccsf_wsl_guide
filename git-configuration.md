@@ -8,7 +8,7 @@ Beginning in 2021, you cannot directly interact with code repositories stored on
 
 [You can follow Github's directions for generating a PAT here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line). **Be sure to have your PATs generated and readily available at the start of each working day.**
 
-[Alternatively, you can cache your GitHub credentials using GCM Core and get access through your terminal.](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git). You would follow the Linux directions instead of the Windows Tab, as this guide is for Windows Subsystem Linux.
+[Alternatively, you can set up SSH Keys.](https://docs.github.com/en/enterprise-server@3.0/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). You would follow the Linux directions instead of the Windows Tab, as this guide is for Windows Subsystem Linux.
 
 ## Configuring a Global git ignore
 
