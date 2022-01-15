@@ -1,16 +1,28 @@
 # Installfest for Windows, Step 1: Unix Terminal on Windows
 
-1. Follow [Microsoft's instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) to get Windows Subsystem Linux 2 installed on your system. You may have to restart your computer several times or change your computer's BIOS options. Again, this documentation is provided as-is, and you are responsible for any changes following this guide may have on your machine. 
+Follow [Microsoft's instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) to get Windows Subsystem Linux 2 installed on your system. You may have to restart your computer several times or change your computer's BIOS options. Again, this documentation is provided as-is, and you are responsible for any changes following this guide may have on your machine. These steps are briefly summarized below starting with Step 1.
 
-    You may have to enable virtualization from your computer's BIOS menu. Refer to your computer's manuals/manufacturer's instructions for additional details.
+You may have to enable virtualization from your computer's BIOS menu. Refer to your computer's manuals/manufacturer's instructions for additional details.
 
-    If you have never done anything like this, we recommend following this guide on Medium.com. It has more screenshots and step-by-step guidance for this process than Microsoft's website. You will only have to do the first page and no more before following the rest of this guide. [How To Install WSL2](https://medium.com/swlh/how-to-install-the-windows-subsystem-for-linux-2-wsl2-779b9fd2cadc)
+1. First, open the PowerShell Command Line app on your computer. Run it with admin privileges.
 
-2. Download [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) (no version after it) from the Microsoft Store desktop app to install an Ubuntu environment. This linux distribution will have some features and software (like Python3) pre-installed.
+Run the command:
+```
+wsl --install -d Ubuntu
+```
 
-4. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) from the Microsoft App Store.
+This will install the Ubuntu Linux system to your computer. We will continue setting it up in the rest of this guide.
 
-5. Install [VSCode](https://code.visualstudio.com/). This will be your main text editor. Make sure to select the options to associate file types with VSCode and to set up PATH when you insall it.
+
+3. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) from the Microsoft App Store.
+
+4. Install [VSCode](https://code.visualstudio.com/). This will be your main text editor. Make sure to select the options to associate file types with VSCode and to set up PATH when you insall it.
+
+## Configuring your default user for Ubuntu
+
+When you first download Ubuntu, the computer will ask you to set up a default username. Usernames cannot have any spaces. 
+
+Next, the computer will ask you to set a password for your Linux user. It will not show any letters or numbers you are typing, but the computer is listening! When you have entered a password and confirmed it, be sure to write it down somewhere safe! There is no way of recovering this password otherwise!
 
 ## Setting Windows Terminal to Use Ubuntu by default
 
@@ -37,7 +49,7 @@ now, copy the value for `guid:` (the stuff after guid in quote and curly braces 
 
 Inside the `guid: {UBUNTU GUID}`, add a new property beneath `name: ubuntu`. This will be the default folder that opens when you launch your terminal.
 
-`"startingDirectory": "//wsl$/Ubuntu/home/ YOUR USERNAME HERE `
+`"startingDirectory": "/home/ YOUR USERNAME HERE `
 
 Lastly, take the UBUNTU GUID and paste it into `defaultProfile` field.
 
@@ -55,6 +67,10 @@ Make Zsh your default terminal by running:
 
 `chsh -s /bin/zsh`
 
+Zsh will ask you to set up a default profile when you run it for the first time. Select 0 in the menu to generate this profile automatically. 
+
+If the terminal cursor switches to a %, then you are succesfully using Zsh. If you are not seeing the % as your terminal cursor, you can run the command `zsh` to switch to it.
+
 3. Install [oh-my-zsh](https://ohmyz.sh/) to have a beautiful, easy to use Zsh terminal!
 
 4. Run `sudo apt-get update` to ensure your Linux installation is up to date.
@@ -71,15 +87,25 @@ For example, when someone with a Mac says "command" or "apple" key, press contro
 
 6. Signing your code with Git
 
-    Git has been pre-installed on your computer. Don't believe me?
+You can install Git- our Version Control System for our code with these commands:
 
-    Run: `git --version`
+```
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
+```
 
-    Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
+Next, run this command to set your default git branch name:
 
-    Run: `git config --global user.email "YOUR EMAIL ADDRESS HERE` 
+```
+git config --global init.defaultBranch <name>
+```
 
-    Then: `git config --global user.name "YOUR NAME HERE"`
+Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
+
+Run: `git config --global user.email "YOUR EMAIL ADDRESS HERE` 
+
+Then: `git config --global user.name "YOUR NAME HERE"`
 
 More detailed configuration will be in the next section: Next, we will continue configuring git!
 
