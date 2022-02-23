@@ -78,6 +78,29 @@ To exit postgres=# enter: \q or use the shortcut key: Ctrl+D
 
 To see what user accounts have been created on your PostgreSQL installation, use from your WSL terminal: `psql -c "\du"` ...or just `\du` if you have the psql shell open. This command will display columns: Account User Name, List of Roles Attributes, and Member of role group(s). To exit back to the command line, enter: `q`.
 
+### Sequelize
+
+Install the Sequelize CLI:
+```
+npm install -g sequelize-cli
+```
+
+Create a root user for Sequelize Conig.
+
+Enter the postgres shell:
+`sudo -u postgres psql`
+
+Create a superuser:
+`CREATE ROLE root superuser;`
+
+Give ths root superuser a password:
+`ALTER ROLE root WITH password 'password';`
+
+Give the root role login privileges:
+`ALTER ROLE root WITH LOGIN;`
+
+Adjust your config.json accordingly.
+
 ## Python3 & Pip3
 
 Python3 should come with Ubuntu 18.04 and later. Please confirm by running command: `python3 --version`
