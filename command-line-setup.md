@@ -95,10 +95,10 @@ sudo apt update
 sudo apt install git
 ```
 
-Next, run this command to set your default git branch name:
+Next, run this command to set your default git branch name to main:
 
 ```
-git config --global init.defaultBranch <name>
+git config --global init.defaultBranch main
 ```
 
 Now, you'll have to tell Git who you are. This will identify you as the rightful author and owner of any code you write and publish.
